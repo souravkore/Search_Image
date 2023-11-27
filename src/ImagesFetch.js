@@ -8,7 +8,6 @@ const override = css`
   margin: 0 auto;
   border-color: #36D7B7;
 `;
-
 const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [images, setImages] = useState([]);
